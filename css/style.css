@@ -1,0 +1,111 @@
+.help-inline {
+ color: #3A87AD;
+ font-size: 13.5px;
+ margin-left: 6px;
+}
+
+.help-line {
+ clear: both;
+ margin-top: 10px;
+ width: 273px;
+ background-color: #D9EDF7;
+ border: #BCE8F1 1px solid;
+ color: #3A87AD;
+ font-size: 12px;
+ padding: 4px;
+}
+
+.qs {
+ padding-left: 7px;
+ font-size: 13px;
+ vertical-align: -15%;
+}
+
+a:focus { 
+ outline: none; 
+}
+
+.pagination li:first-child a {
+    border-left-width: 1px;
+    border-radius: 3px 0 0 3px;
+}
+
+.settings {
+ width: 30px;
+ margin-top: 5px;
+ margin-left: 20px;
+}
+
+.settings a {
+ padding: 0;
+ color: white;
+}
+
+.notfound {
+ background: #fff; 
+ width: 560px;
+ border: 1px solid rgba(0, 0, 0, 0.15);
+ border-radius: 4px 4px 4px 4px;
+ display: block;
+ font-size: 13px;
+ margin:0px auto;
+ padding: 10px 30px 10px;
+}
+
+.notfound h1{
+ font-size: 19px;
+ margin: 0px;
+}
+
+#img_load {
+ display: none;
+ background-color: #dfecff;
+ position: absolute;
+ top: 10px;
+ left: 58%;
+ width: 102px; 
+ height: 14px;
+ z-index: 1031;
+ font-size: 14px;
+ font-weight: bold;
+ padding: 0px 3px 6px 5px;
+ border: red 1px sold;
+}
+
+.headerSortdesc, .modSortdesc {
+ background-image: url("/img/sortdesc.png");
+ background-position: 95% 50%;
+ background-repeat: no-repeat;
+ font-weight: bold;
+ color: #004A95;
+ cursor: pointer;
+}
+
+.headerSortasc, .modSortasc {
+ background-image: url("/img/sortasc.png");
+ background-position: 95% 50%;
+ background-repeat: no-repeat;
+ font-weight: bold;
+ color: #004A95;
+ cursor: pointer;
+}
+
+@font-face{
+  font-family:'FontAwesome';
+  src:url('/font/fontawesome-webfont.eot?v=3.0.1');
+  src:url('/font/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+  url('/font/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+  url('/font/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight:normal;
+  font-style:normal }
+
+.icon-envelope, .icon-key, .icon-question-sign, .icon-large {font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;display:inline;line-height:normal;vertical-align:baseline;background-image:none;background-position:0 0;background-repeat:repeat;margin-top:0}
+.icon-key:before{content:"\f084"}.icon-envelope:before{content:"\f003"}.icon-question-sign:before{content:"\f059"}.icon-large:before{vertical-align:-10%;font-size:1.3333333333333333em}
+
+.box {
+    background-color: #EFEFEF;
+    border-radius: 6px 6px 6px 6px;
+    float: right;
+    margin: 0 0 10px 20px;
+    padding: 10px 10px 5px;
+}
